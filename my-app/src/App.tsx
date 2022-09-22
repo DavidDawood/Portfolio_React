@@ -11,7 +11,7 @@ function App() {
             <header className="App-header">
                 <Header />
                 <Routes>
-                    <Route path="/Home:id" element={<Home />} />
+                    <Route path="/Home" element={<Home />} />
                     <Route path="/Archives" element={<p>Archives</p>} />
                 </Routes>
                 <Footer />
