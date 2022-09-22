@@ -1,2 +1,2 @@
-import contactMe from "./contactMe";
-export default contactMe;
+import ContactMe from "./ContactMe";
+export default ContactMe;

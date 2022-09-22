@@ -1,2 +1,2 @@
-import projects from "./projects";
-export default projects;
+import Projects from "./Projects";
+export default Projects;

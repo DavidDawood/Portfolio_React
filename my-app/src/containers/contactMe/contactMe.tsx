@@ -1,7 +1,7 @@
 import React from "react";
 
-function contactMe() {
+function ContactMe() {
     return <div>contactMe</div>;
 }
 
-export default contactMe;
+export default ContactMe;

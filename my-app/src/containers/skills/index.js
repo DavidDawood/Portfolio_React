@@ -1,2 +1,2 @@
-import skills from "./skills";
-export default skills;
+import Skills from "./Skills";
+export default Skills;

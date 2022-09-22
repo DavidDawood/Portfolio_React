@@ -1,0 +1,11 @@
+@import "./../../_partials/palette";
+.container {
+    color: white;
+    background-color: white;
+
+    & > a {
+        &:visited {
+            color: $vistedLink;
+        }
+    }
+}

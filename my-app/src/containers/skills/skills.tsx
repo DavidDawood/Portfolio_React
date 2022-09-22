@@ -1,7 +1,7 @@
 import React from "react";
 
-function skills() {
-    return <div>skills</div>;
+function Skills() {
+    return <div>Skills</div>;
 }
 
-export default skills;
+export default Skills;

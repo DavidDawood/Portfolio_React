@@ -1,2 +1,2 @@
-import introduction from "./introduction";
-export default introduction;
+import Introduction from "./Introduction";
+export default Introduction;
