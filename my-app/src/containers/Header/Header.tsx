@@ -4,18 +4,15 @@ import styles from "./Header.module.scss";
 function Header() {
     return (
         <div className={styles.container}>
-            <HashLink to={{ pathname: "/Home", hash: "#Introduction" }}>
+            <p>David Dawood</p>
+            <HashLink to={{ pathname: "", hash: "#Introduction" }}>
                 Introduction
             </HashLink>
-            <HashLink to={{ pathname: "/Home", hash: "#Skills" }}>
-                Skills
-            </HashLink>
-            <HashLink to={{ pathname: "/Home", hash: "#Projects" }}>
+            <HashLink to={{ pathname: "", hash: "#Skills" }}>Skills</HashLink>
+            <HashLink to={{ pathname: "", hash: "#Projects" }}>
                 Projects
             </HashLink>
-            <HashLink to={{ pathname: "/Home", hash: "#Contact" }}>
-                Contact
-            </HashLink>
+            <HashLink to={{ pathname: "", hash: "#Contact" }}>Contact</HashLink>
         </div>
     );
 }

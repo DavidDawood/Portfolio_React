@@ -1,0 +1,23 @@
+@import "./../../_partials/palette";
+.container {
+    min-width: 50px;
+    max-width: calc(5vw + 5vh);
+    min-height: 400px;
+    max-height: calc(5vw + 5vh);
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+
+    border: 5px solid $tertiaryBackground;
+    background-color: $secondaryBackground;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 0px;
+
+    top: 30%;
+    margin-right: 90%;
+    position: fixed;
+    z-index: 1;
+}

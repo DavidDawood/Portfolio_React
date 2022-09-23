@@ -1,0 +1,13 @@
+.container {
+    width: calc(2vw + 4vh);
+    height: auto;
+    align-items: center;
+
+    text-align: center;
+    display: block;
+    margin: auto;
+
+    & > a > img {
+        width: 80%;
+    }
+}

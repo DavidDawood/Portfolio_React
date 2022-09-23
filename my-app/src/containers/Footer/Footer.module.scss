@@ -1,0 +1,17 @@
+@import "./../../_partials/palette";
+.container {
+    background-color: $secondaryBackground;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+    border: solid 2px $tertiaryBackground;
+    border-bottom: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 80%;
+
+    font-size: calc(1vw + 1vh);
+}

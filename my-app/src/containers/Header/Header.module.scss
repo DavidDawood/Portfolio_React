@@ -1,11 +1,30 @@
 @import "./../../_partials/palette";
 .container {
-    color: black;
-    background-color: white;
+    background-color: $secondaryBackground;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+    border: solid 2px $tertiaryBackground;
+    border-top: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 80%;
+
+    font-size: calc(1vw + 1vh);
 
     & > a {
+        padding: 0px 10px;
         &:visited {
             color: $vistedLink;
+        }
+        &:hover {
+            color: $hoverLink;
+        }
+        &:active {
+            color: $activeLink;
         }
     }
 }
