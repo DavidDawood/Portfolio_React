@@ -1,7 +1,10 @@
 @import "./../../modules/baseModule";
 .container {
+    &__title {
+        text-decoration: overline;
+    }
     width: 50%;
     @extend %border;
-    @include Grid(5, 4);
+    @include Grid();
     padding: 30px;
 }

@@ -10,13 +10,13 @@
     align-items: center;
 }
 
-@mixin Grid($xSize: 5, $ySize: 5) {
+@mixin Grid() {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
     column-gap: 40px;
     flex-wrap: wrap;
     justify-items: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 %border {
