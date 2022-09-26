@@ -6,6 +6,7 @@
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    flex-direction: column;
 
     border: solid 2px $tertiaryBackground;
     border-bottom: 0px;
@@ -14,4 +15,8 @@
     width: 80%;
 
     font-size: calc(1vw + 1vh);
+
+    & > p {
+        margin: 30px;
+    }
 }

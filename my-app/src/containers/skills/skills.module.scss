@@ -1,0 +1,7 @@
+@import "./../../modules/baseModule";
+.container {
+    width: 50%;
+    @extend %border;
+    @include Grid(5, 4);
+    padding: 30px;
+}

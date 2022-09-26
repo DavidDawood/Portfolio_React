@@ -1,0 +1,43 @@
+@import "../../_partials/palette";
+.container {
+    width: 80%;
+    height: 20vh;
+    & > form {
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        flex-direction: column;
+
+        border: solid 2px $secondaryColor;
+        border-radius: 30px;
+        padding: 20px;
+
+        box-shadow: 0px 0px 10px 10px $primaryBackground;
+        & > textarea {
+            resize: none;
+            height: 100%;
+            text-align: center;
+            border: 2px solid black;
+
+            border-top: 0px;
+            border-bottom: 0px;
+
+            color: $primaryColor;
+        }
+        & > input {
+            text-align: center;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border: 2px solid black;
+            color: $primaryColor;
+        }
+        & > button {
+            border: 2px solid black;
+            color: $primaryColor;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    }
+}

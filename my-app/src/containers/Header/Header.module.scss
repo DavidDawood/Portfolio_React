@@ -17,6 +17,7 @@
 
     & > a {
         padding: 0px 10px;
+        text-decoration: overline;
         &:visited {
             color: $vistedLink;
         }

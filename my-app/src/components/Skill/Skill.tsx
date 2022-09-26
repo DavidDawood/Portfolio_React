@@ -1,20 +1,27 @@
-import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import styles from "./Skill.module.scss";
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 interface skillProp {
-    img: string;
-    description: string;
     name: string;
-    furtherDetailsLink: string;
-    imgDescription: string;
+    description: string;
+    icon: IconDefinition;
+    detailLink: string;
 }
 
 function Skill(props: skillProp) {
     return (
         <div className={styles.container}>
-            <p className={styles.container__title}>{props.name}</p>
-            <a href={props.furtherDetailsLink}>
-                <img src={props.img} alt={props.imgDescription} />
+            <a className={styles.container__link} href={props.detailLink}>
+                <p className={styles.container__title}>{props.name}</p>
+                <FontAwesomeIcon
+                    className={styles.skill}
+                    icon={props.icon}
+                    size="2x"
+                    beat={true}
+                />
             </a>
+            <p>———</p>
         </div>
     );
 }

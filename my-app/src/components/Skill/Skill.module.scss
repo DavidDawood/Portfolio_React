@@ -1,0 +1,22 @@
+@import "../../modules/baseModule";
+.container {
+    border: black 2px;
+    &__title {
+        margin: 10px 0px;
+    }
+    &__link {
+        text-decoration: overline;
+    }
+}
+.skill {
+    border: solid 2px black;
+    border-radius: 10px;
+    --fa-animation-duration: 0s;
+    @extend %iconStable;
+    &:hover {
+        --fa-animation-duration: 1s;
+
+        border: solid 2px black;
+        border-radius: 10px;
+    }
+}
