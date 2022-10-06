@@ -1,0 +1,27 @@
+@import "./../../modules/baseModule";
+
+.container {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    &__Projects {
+        width: 55vw;
+        padding: 30px;
+        @extend %border;
+        margin-bottom: 100px;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(calc(11vw + 5vh), 1fr));
+        row-gap: 30px;
+        column-gap: 30px;
+
+        justify-items: center;
+        align-content: center;
+    }
+}

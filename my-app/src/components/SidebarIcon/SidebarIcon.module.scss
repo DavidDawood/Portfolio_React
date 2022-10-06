@@ -10,4 +10,10 @@
     & > a > img {
         width: 80%;
     }
+    &__icon {
+        --fa-animation-duration: 0s;
+        &:hover {
+            --fa-animation-duration: 1s;
+        }
+    }
 }

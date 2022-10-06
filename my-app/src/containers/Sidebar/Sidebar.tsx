@@ -1,30 +1,26 @@
-import React from "react";
 import SidebarIcon from "../../components/SidebarIcon/SidebarIcon";
 import Styles from "./Sidebar.module.scss";
-import Gitcat from "./../../images/GitHubCat.png";
+
+import { solid, brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 function Sidebar() {
     return (
         <div className={Styles.container}>
             <SidebarIcon
-                img={Gitcat}
+                img={brands("github")}
                 link={"https://github.com/DavidDawood?tab=repositories"}
-                alt={"Git"}
             />
             <SidebarIcon
-                img={Gitcat}
-                link={"https://github.com/DavidDawood?tab=repositories"}
-                alt={"Git"}
+                img={brands("twitter")}
+                link={"https://twitter.com/MothersHome108"}
             />
             <SidebarIcon
-                img={Gitcat}
-                link={"https://github.com/DavidDawood?tab=repositories"}
-                alt={"Git"}
+                img={solid("code")}
+                link={"https://www.codewars.com/users/DavidDawood"}
             />
             <SidebarIcon
-                img={Gitcat}
-                link={"https://github.com/DavidDawood?tab=repositories"}
-                alt={"Git"}
+                img={brands("linkedin")}
+                link={"https://www.linkedin.com/in/david-dawood-09107a208/"}
             />
         </div>
     );

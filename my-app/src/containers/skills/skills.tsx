@@ -1,19 +1,11 @@
-import React from "react";
 import Skill from "../../components/Skill";
 import styles from "./Skills.module.scss";
-import {
-    solid,
-    regular,
-    brands,
-    icon,
-} from "@fortawesome/fontawesome-svg-core/import.macro";
+import { solid, brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 function Skills() {
     return (
         <>
-            <h3 id="Skills" className={styles.container__title}>
-                Skills
-            </h3>
+            <h2 id="Skills">Skills</h2>
             <div className={styles.container}>
                 <Skill
                     name={"HTML5"}

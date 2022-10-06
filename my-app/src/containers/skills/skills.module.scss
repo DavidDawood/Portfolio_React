@@ -1,10 +1,8 @@
 @import "./../../modules/baseModule";
 .container {
-    &__title {
-        text-decoration: overline;
-    }
     width: 50%;
     @extend %border;
-    @include Grid();
+    @include Grid($gap: 40px, $size: 70px);
     padding: 30px;
+    margin-bottom: 100px;
 }

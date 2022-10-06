@@ -13,11 +13,10 @@ function App() {
                 <Header />
                 <Routes>
                     <Route path="" element={<Home />} />
-                    <Route path="/Archives" element={<p>Archives</p>} />
                 </Routes>
-                <Footer />
-                <Sidebar />
             </header>
+            <Footer />
+            <Sidebar />
         </div>
     );
 }
