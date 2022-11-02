@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio_React/static/css/main.bc6452d7.css",
-    "main.js": "/Portfolio_React/static/js/main.fab86d5d.js",
+    "main.js": "/Portfolio_React/static/js/main.7a811e1e.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio_React/static/js/787.28cb0dcd.chunk.js",
+    "static/media/E-commerce-2.png": "/Portfolio_React/static/media/E-commerce-2.61d64fba83c59e112dc5.png",
+    "static/media/E-commerce-1.png": "/Portfolio_React/static/media/E-commerce-1.e45399e4592bfe46efc1.png",
+    "static/media/E-commerce-3.png": "/Portfolio_React/static/media/E-commerce-3.3b7a802014ba1b4b2196.png",
+    "static/media/myFace.jpeg": "/Portfolio_React/static/media/myFace.9563afe057080b1c2960.jpeg",
+    "static/media/E-commerce-4.png": "/Portfolio_React/static/media/E-commerce-4.7c6e85ab8570fbd5e443.png",
+    "static/media/morseCode.png": "/Portfolio_React/static/media/morseCode.e40514f5e17d76e91d5a.png",
+    "static/media/calculator.png": "/Portfolio_React/static/media/calculator.d7076403975c16d18b4b.png",
     "index.html": "/Portfolio_React/index.html",
     "main.bc6452d7.css.map": "/Portfolio_React/static/css/main.bc6452d7.css.map",
-    "main.fab86d5d.js.map": "/Portfolio_React/static/js/main.fab86d5d.js.map",
+    "main.7a811e1e.js.map": "/Portfolio_React/static/js/main.7a811e1e.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio_React/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc6452d7.css",
-    "static/js/main.fab86d5d.js"
+    "static/js/main.7a811e1e.js"
   ]
 }
