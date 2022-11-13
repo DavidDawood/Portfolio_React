@@ -12,7 +12,7 @@ function App() {
             <header className="App-header">
                 <Header />
                 <Routes>
-                    <Route path="" element={<Home />} />
+                    <Route path="Portfolio_React/" element={<Home />} />
                 </Routes>
             </header>
             <Footer />
